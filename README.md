@@ -1,7 +1,90 @@
-# hapos
+# monmilk
 
-> pos sale
+> programe pos monmilk
 
+## Framework css
+
+### bootstrap and jquery
+
+```
+npm install bootstrap@4.0.0-alpha.6 --save
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.css'
+
+npm install --save jquery
+
+Set JQuery in config file 
+Add the ProvidePlugin to the plugins array in both build/webpack.dev.conf.js and build/webpack.prod.conf.js so that jQuery becomes globally available to all your modules:
+
+plugins: [
+
+  // ...
+
+  new webpack.ProvidePlugin({
+    $: 'jquery',
+    jquery: 'jquery',
+    'window.jQuery': 'jquery',
+    jQuery: 'jquery'
+  })
+]
+
+# font awesome
+npm install font-awesome --save
+import '../node_modules/font-awesome/css/font-awesome.css'
+
+
+# datepicker
+https://www.npmjs.com/package/vuejs-datepicker
+
+# alert 
+npm install bootstrap-sweetalert
+import SweetAlert from 'bootstrap-sweetalert'
+import 'bootstrap-sweetalert/dist/sweetalert.css'
+Vue.use(SweetAlert)
+
+# numeral
+npm install numeral --save
+import numeral from 'numeral'
+
+# moment
+npm install moment --save
+import moment from 'moment' 
+
+```
+
+===
+
+## Set config after build project
+### set path index
+```
+ลบ '/' ในไฟล์ config/index.js
+ตัวอย่าง
+===
+  build: {
+    env: require('./prod.env'),
+    index: path.resolve(__dirname, '../dist/index.html'),
+    assetsRoot: path.resolve(__dirname, '../dist'),
+    assetsSubDirectory: 'static',
+    assetsPublicPath: '',
+    
+```
+===
+
+## Set static Fonts in Project
+```
+เพิ่ม คำสั่ง  publicPath: '../../' ในไฟล์ build/utils.js 
+ตัวอย่าง 
+	if (options.extract) {
+      return ExtractTextPlugin.extract({
+        use: loaders,
+        fallback: 'vue-style-loader',
+        publicPath: '../../'
+      })
+    } else {
+      return ['vue-style-loader'].concat(loaders)
+    }
+```
+===
 ## Build Setup
 
 ``` bash
