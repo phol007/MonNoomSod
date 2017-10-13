@@ -1,0 +1,25 @@
+/*iPhone 6 and iPhone 6+ portrait and landscape*/
+
+@media only screen and (max-device-width: 640px),
+only screen and (max-device-width: 667px),
+only screen and (max-width: 480px) {
+
+html,body {
+  height: 100%;
+}
+  
+.login-content {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+  .login-content .form-group{
+    text-align: left;
+  }
+
+  .login-content img {
+    width: 50%;
+  }
+
+
+}

@@ -1,0 +1,29 @@
+
+.content {
+	padding: 1%;
+	/*border: 1px solid blue;*/
+	position: static;
+	overflow: auto;
+}
+
+	.content button {
+		cursor: pointer;
+	}
+
+.list-group {
+	padding: 0;
+}
+
+.list-group-item {
+	margin: 0;
+	padding: 0;
+}
+
+.login-content {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+	.login-content .form-group{
+		text-align: left;
+	}
