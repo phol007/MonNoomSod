@@ -12,6 +12,7 @@ import './css/index.css'
 import './css/ipad.css'
 import './css/iphone6.css'
 import './css/panel.css'
+import './js/main_func.js'
 
 Vue.config.productionTip = false
 Vue.use(SweetAlert)

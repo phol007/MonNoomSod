@@ -1,6 +1,11 @@
 export default {
   name: 'login',
-  mounted () {
-    
+  methods: {
+    check_login () {
+    	this.$router.push('/main')
+    }
+  },
+  mounted () {  	
+    this.hideBTnav()
   }
 }

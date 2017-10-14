@@ -3,7 +3,7 @@
     <div class="content">
         <div class="login-content">
         <img src="static/img/logo2.jpg">        
-        <form>
+        <form @submit.prevent="check_login">
           <div class="form-group form-control-lg">
             <label for="exampleInputEmail1">Username</label>
             <input type="text" class="form-control form-control-lg" placeholder="username.." required>

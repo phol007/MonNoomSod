@@ -4,6 +4,7 @@
 	/*border: 1px solid blue;*/
 	position: static;
 	overflow: auto;
+	text-align: center;
 }
 
 	.content button {
