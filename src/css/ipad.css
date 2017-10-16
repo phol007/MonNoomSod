@@ -1,11 +1,200 @@
 @media only screen and (device-width: 768px) {
+	.content, .login-content { 
+		height: 550px;
+	}
 
+	.content h1 { 
+		font-size: 100px;
+	}
+
+	.navbar {
+		height: 80px;
+		padding-left: 2%;
+		margin-bottom: 2%;
+	}
+
+	.navbar-brand {
+		margin-left: 2%;
+	}
+
+	.navbar-brand img {
+		width: 50%;
+	}
+
+	#gridMenu { font-size: 30px; }
+
+	.content-menu {
+		height: 500px;
+		width: 100%;
+		overflow: auto;
+		padding-bottom: 20px;
+	}
+
+	.menu-list {
+	   width: 250px;
+	   height: 250px;
+	   margin: 2%;
+	}
+
+	.list-group-item {
+		font-weight: normal;
+		font-size: 25px;
+	}
+
+	.list-group-item span{
+		font-weight: bold;
+		font-size: 40px;
+	}
+	.list-group-item i{
+		font-weight: bold;
+		font-size: 45px;
+		margin-left: 5%;
+	}
 }
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
- 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
+ 	.content, .login-content { 
+		height: 1000px;
+	}
+	.navbar {
+		height: 100px;
+		padding-left: 2%;
+		margin-bottom: 2%;
+	}
+
+	.navbar-brand {
+		margin-left: 2%;
+	}
+
+	.navbar-brand img {
+		width: 70%;
+	}
+
+	#gridMenu { font-size: 50px; }
+
+	.content-menu {
+		height: 1000px;
+		width: 100%;
+		overflow: auto;
+		padding-bottom: 20px;
+	}
+
+	.menu-list {
+	   width: 250px;
+	   height: 250px;
+	   margin: 2%;
+	}
+
+	.login-content {
+		width: 80%;
+		overflow: auto;
+	}
+
+	.login-content img {
+		width: 40%;
+	}
+
+	.form-group {
+		font-size: 35px;
+	}
+
+	.form-group input {
+		font-size: 40px;
+	}
+
+	.login-content button {
+		font-size: 40px;
+		font-weight: bold;
+		margin: 5%;
+		padding: 3%;
+	}
 }
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
-  
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:landscape) {
+	.navbar {
+		height: 80px;
+		padding-left: 2%;
+		margin-bottom: 0%;
+	}
+
+  .content, .login-content { 
+		height: 550px;
+		padding-top:0;
+	}
+
+	.content h1 {
+		font-size: 80px;
+		padding: 0;
+		margin: 0;
+		line-height: 80px;
+	}
+
+	.content-menu {
+		height: 1000px;
+		width: 100%;
+		overflow: auto;
+		padding-bottom: 20px;
+	}
+
+	.navbar-brand {
+		margin-left: 2%;
+	}
+
+	.navbar-brand img {
+		width: 60%;
+	}
+
+	#gridMenu { font-size: 50px; }
+
+	.content-menu {
+		height: 450px;
+		width: 100%;
+		overflow: auto;
+		padding-bottom: 20px;
+	}
+
+	.menu-list {
+	   width: 230px;
+	   height: 230px;
+	   margin: 2%;
+	}
+
+	.login-content {
+		width: 80%;
+		overflow: auto;
+	}
+
+	.login-content img {
+		width: 17%;
+		padding: 0;
+		margin: 0;
+	}
+
+	.form-group {
+		font-size: 35px;
+		padding: 0;
+		margin: 0;
+	}
+
+	.form-group input {
+		font-size: 30px;
+	}
+
+	.login-content button {
+		font-size: 40px;
+		font-weight: bold;
+		margin: 3% 0;
+	}
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation:portrait) {
+ 	.content, .login-content { 
+		height: 1000px;
+	}
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation:landscape) {
+  .content, .login-content { 
+		height: 1000px;
+	}
 }

@@ -12,6 +12,7 @@ html,body {
   width: 70%;
   margin: auto;
   text-align: center;
+  height: 600px;
 }
   .login-content .form-group{
     text-align: left;
@@ -21,5 +22,20 @@ html,body {
     width: 50%;
   }
 
+
+  .content, .login-content{
+    height: 600in;
+  }
+
+  .content h1 {
+    font-size: 100px;
+    margin: 5%;
+  }
+
+  .menu-list {
+    width: 400px;
+    height: 400px;
+    margin: 2%;
+  }
 
 }

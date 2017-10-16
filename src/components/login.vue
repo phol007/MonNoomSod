@@ -1,7 +1,7 @@
 <template>
   <div id="login">
     <div class="content">
-        <div class="login-content">
+      <div class="login-content">
         <img src="static/img/logo2.jpg">        
         <form @submit.prevent="check_login">
           <div class="form-group form-control-lg">
@@ -12,7 +12,7 @@
             <label for="exampleInputPassword1">Password</label>
             <input type="password" class="form-control form-control-lg" placeholder="Password" required>
           </div>
-          <button type="submit" class="btn btn-primary btn-lg">เข้าสู่ระบบ</button>
+          <button type="submit" class="btn btn-primary btn-lg btn-block">เข้าสู่ระบบ</button>
         </form>
       </div>
     </div>  
