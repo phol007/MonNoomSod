@@ -20,8 +20,5 @@ Vue.mixin({
         bt[i].style.display = 'none'
       }
     }
-  },
-  mounted () {
-    console.log(document.getElementById('mySidenav').style.display)
   }
 })
