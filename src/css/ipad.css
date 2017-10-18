@@ -24,7 +24,7 @@
 	#gridMenu { font-size: 30px; }
 
 	.content-menu {
-		height: 500px;
+		height: 600px;
 		width: 100%;
 		overflow: auto;
 		padding-bottom: 20px;
@@ -54,12 +54,12 @@
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
  	.content, .login-content { 
-		height: 1000px;
+		height: 900px;
 	}
 	.navbar {
 		height: 100px;
 		padding-left: 2%;
-		margin-bottom: 2%;
+		margin-bottom: 0%;
 	}
 
 	.navbar-brand {
@@ -73,10 +73,10 @@
 	#gridMenu { font-size: 50px; }
 
 	.content-menu {
-		height: 1000px;
+		height: 800px;
 		width: 100%;
 		overflow: auto;
-		padding-bottom: 20px;
+		padding-bottom: 50px;
 	}
 
 	.menu-list {
@@ -118,7 +118,7 @@
 	}
 
   .content, .login-content { 
-		height: 550px;
+		height: 600px;
 		padding-top:0;
 	}
 
@@ -147,7 +147,7 @@
 	#gridMenu { font-size: 50px; }
 
 	.content-menu {
-		height: 450px;
+		height: 600px;
 		width: 100%;
 		overflow: auto;
 		padding-bottom: 20px;
