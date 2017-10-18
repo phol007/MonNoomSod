@@ -9,7 +9,7 @@
 				</button>
 				<button type="button" class="btn btn-outline-danger menu-list">
 				<img src="../assets/menu.png" alt="">
-				<h2>จัดการเมนูอาหาร</h2>
+				<h2>จัดการเมนูสินค้า</h2>
 				</button>
 				<button type="button" class="btn btn-outline-danger menu-list">
 				<img src="../assets/resturant.png" alt="">

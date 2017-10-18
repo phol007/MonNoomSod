@@ -42,7 +42,6 @@ export default {
   mounted() {
     if( screen.width > 768) {
       this.screenwidth = screen.width / 5
-      alert(true + ',' + screen.width)
     }else{
       if ( screen.width > 375) {
         this.screenwidth = screen.width / 3
