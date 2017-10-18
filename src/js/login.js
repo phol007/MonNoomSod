@@ -1,3 +1,5 @@
+import './main_func.js'
+
 export default {
   name: 'login',
   methods: {
@@ -6,6 +8,6 @@ export default {
     }
   },
   mounted () {  	
-    this.hideBTnav()
+    this.hideBTnav()    
   }
 }

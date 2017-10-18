@@ -3,7 +3,8 @@ import Vue from 'vue'
 Vue.mixin({
   data () {
     return {
-      webpath: ''
+      screenwidth: 0,
+      navStatus: 0
     }
   },
   methods: {
@@ -19,5 +20,8 @@ Vue.mixin({
         bt[i].style.display = 'none'
       }
     }
+  },
+  mounted () {
+    console.log(document.getElementById('mySidenav').style.display)
   }
 })

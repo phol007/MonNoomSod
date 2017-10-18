@@ -1,8 +1,10 @@
+import numeral from 'numeral'
+
 export default {
   name: 'app',
   data () {
     return {
-      screenwidth: 0
+      
     }
   },
   methods: {
@@ -23,19 +25,29 @@ export default {
         con[i].style.height = height + 'px'
       }
     },
+    NavToggle () {
+      if(this.navStatus == 0) {
+        this.openNav()
+        this.navStatus = 1
+      }else{
+        this.closeNav()
+        this.navStatus = 0
+      }
+    },
     logOut () {
       this.$router.push('/')
       this.closeNav ()
     }
   },
   mounted() {
-    if( screen.width > 769) {
+    if( screen.width > 768) {
       this.screenwidth = screen.width / 5
+      alert(true + ',' + screen.width)
     }else{
-      if(screen.width > 376){
-        this.screenwidth = screen.width / 2  
+      if ( screen.width > 375) {
+        this.screenwidth = screen.width / 3
       }else{
-        this.screenwidth = screenwidth - 100
+        this.screenwidth = screen.width / 2
       }
     }
   }
