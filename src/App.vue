@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="main">
-      <nav class="navbar" style="border-bottom: 5px solid red; text-align: left; padding:0;">
+      <nav class="navbar">
         <div class="navbar-brand" href="#" style="width: 100%;">
           <button class="navbar-toggler" id="gridMenu" type="button" @click="NavToggle">
             <i class="fa fa-bars" aria-hidden="true"></i>

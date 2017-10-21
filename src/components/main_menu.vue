@@ -11,7 +11,7 @@
 				<img src="../assets/menu.png" alt="">
 				<h2>จัดการเมนูสินค้า</h2>
 				</button>
-				<button type="button" class="btn btn-outline-danger menu-list">
+				<button type="button" class="btn btn-outline-danger menu-list" @click="goto('Sale')">
 				<img src="../assets/resturant.png" alt="">
 				<h2>โปรแกรมขาย</h2>
 				</button>
