@@ -134,6 +134,57 @@
 		margin-top: 5%;
 		padding: 3%;
 	}
+
+	.modal-header-itemname {
+		width: 70%;
+		padding-left: 5%;
+	}
+
+	.modal-header-price {
+		width: 30%;
+		padding-right: 5%;
+	}
+
+	.modal-header-count1 {
+		width: 100%;
+		clear: both;
+		display: none;
+	}
+	.modal-header-count2 {
+		width: 100%;
+		clear: both;
+		display: block;
+	}
+
+	.sck-list
+	{ clear: both; width: 96%; margin: 0 2%; margin-bottom: 3%;}
+
+	.menu-select {
+		width: 10%;
+	}
+		.menu-select-list { font-size: 14px; height: 75px;}
+
+	.item-select {
+		width: 50%;
+		padding-bottom: 180px;
+	}
+		.item-list {
+			width: 180px;
+			height: 180px;
+		}
+	.payment {
+		width: 40%;
+	}
+		.payment-order-list { height: 70%; }
+		.payment-button .btn-success {
+			width: 58%;
+		}
+
+		.payment-netamount {
+			font-size: 30px;
+			padding: 0;
+			line-height: 45px;
+		}
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:landscape) {
@@ -212,6 +263,17 @@
 		font-weight: bold;
 		margin: 3% 0;
 	}
+
+	.payment-button .btn-success {
+		width: 58%;
+	}
+
+	.payment-netamount {
+		font-size: 30px;
+		padding: 0;
+		line-height: 45px;
+	}
+
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation:portrait) {
